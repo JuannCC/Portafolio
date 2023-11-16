@@ -46,7 +46,7 @@ function toggleCursos() {
     var cursosList = document.getElementById("cursosList");
     cursosList.style.display = (cursosList.style.display === "none") ? "block" : "none";
 }
-function toggleCursos() {
+function togglePublic() {
     var publicList = document.getElementById("publicList");
     publicList.style.display = (publicList.style.display === "none") ? "block" : "none";
 }
