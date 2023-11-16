@@ -14,29 +14,27 @@
     </header>
 
     <section id="papers">
-        <h2>Publicaciones</h2>
-        <select>
-            <option value="" selected disabled>Selecciona un curso</option>
-            <option value="curso1">Nombre del Curso 1</option>
-            <option value="curso2">Nombre del Curso 2</option>
-            <option><a href="https://drive.google.com/file/d/14xbMC4jzu_zJVU_Qp2mDxwvRST62rRpG/view?usp=drive_link" target="_blank">Título del Paper 1</a></option>
-            <option><a href="https://drive.google.com/file/d/1f9vK4V7EMwgogpieXre0fzYK-XOXPDNR/view?usp=drive_link" target="_blank">Título del Paper 2</a></option>
-            <option><a href="https://drive.google.com/file/d/1t0ss2Jz-t2yE7qiUcaaV_JkKOWD18veu/view?usp=drive_link" target="_blank">Título del Paper 3</a></option>
-            <option><a href="https://drive.google.com/file/d/1OUm2yUNi_50-mHv9R7o0MdvfiSRzjwkY/view?usp=drive_link" target="_blank">Título del Paper 4</a></option>
-            <option><a href="https://drive.google.com/file/d/1zK52rNoE8MHp91ayGm_Rnzp1aR2mt2Zn/view?usp=drive_link" target="_blank">Título del Paper 5</a></option>
-            <option><a href="https://drive.google.com/file/d/1RSyyxss2JTl-9-bkgN4mU9jPj2oovNc8/view?usp=drive_link" target="_blank">Título del Paper 6</a></option>
-            <option><a href="https://drive.google.com/file/d/1g1HnCJAfjqjP8NO4hUkugmdLeUf1yiG6/view?usp=drive_link" target="_blank">Título del Paper 7</a></option>
-            <option><a href="https://drive.google.com/file/d/1jBuaJqEg1zRxfmX89UZf1Ma-Dyk8MgU7/view?usp=drive_link" target="_blank">Título del Paper 8</a></option>
-            <option><a href="https://drive.google.com/file/d/1VFirZtFr6cLtN7yxQxU8QemgnspNZKQD/view?usp=drive_link" target="_blank">Título del Paper 9</a></option>
-            <option><a href="https://drive.google.com/file/d/1XLRtdigib5oN9m7coBGUAAoVoSPljCOw/view?usp=drive_link" target="_blank">Título del Paper 10</a></option>
-            <option><a href="https://drive.google.com/file/d/16qui0ES9aJoYQ1nuwPzwzLFrflc1Be9o/view?usp=drive_link" target="_blank">Título del Paper 11</a></option>
+        <h2 onclick="toggleCursos()">Publicaciones ▼</h2>
+        <ul>
+            <li><a href="https://drive.google.com/file/d/14xbMC4jzu_zJVU_Qp2mDxwvRST62rRpG/view?usp=drive_link" target="_blank">Título del Paper 1</a></li>
+            <li><a href="https://drive.google.com/file/d/1f9vK4V7EMwgogpieXre0fzYK-XOXPDNR/view?usp=drive_link" target="_blank">Título del Paper 2</a></li>
+            <li><a href="https://drive.google.com/file/d/1t0ss2Jz-t2yE7qiUcaaV_JkKOWD18veu/view?usp=drive_link" target="_blank">Título del Paper 3</a></li>
+            <li><a href="https://drive.google.com/file/d/1OUm2yUNi_50-mHv9R7o0MdvfiSRzjwkY/view?usp=drive_link" target="_blank">Título del Paper 4</a></li>
+            <li><a href="https://drive.google.com/file/d/1zK52rNoE8MHp91ayGm_Rnzp1aR2mt2Zn/view?usp=drive_link" target="_blank">Título del Paper 5</a></li>
+            <li><a href="https://drive.google.com/file/d/1RSyyxss2JTl-9-bkgN4mU9jPj2oovNc8/view?usp=drive_link" target="_blank">Título del Paper 6</a></li>
+            <li><a href="https://drive.google.com/file/d/1g1HnCJAfjqjP8NO4hUkugmdLeUf1yiG6/view?usp=drive_link" target="_blank">Título del Paper 7</a></li>
+            <li><a href="https://drive.google.com/file/d/1jBuaJqEg1zRxfmX89UZf1Ma-Dyk8MgU7/view?usp=drive_link" target="_blank">Título del Paper 8</a></li>
+            <li><a href="https://drive.google.com/file/d/1VFirZtFr6cLtN7yxQxU8QemgnspNZKQD/view?usp=drive_link" target="_blank">Título del Paper 9</a></li>
+            <li><a href="https://drive.google.com/file/d/1XLRtdigib5oN9m7coBGUAAoVoSPljCOw/view?usp=drive_link" target="_blank">Título del Paper 10</a></li>
+            <li><a href="https://drive.google.com/file/d/16qui0ES9aJoYQ1nuwPzwzLFrflc1Be9o/view?usp=drive_link" target="_blank">Título del Paper 11</a></li>
             <!-- Agrega más papers según sea necesario -->
-        </select>
+        </ul>
     </section>
 
     <section id="cursos">
-        <h2>Cursos Realizados</h2>
-        <ul>
+        <h2 onclick="toggleCursos()">Cursos Realizados ▼</h2>
+
+        <ul id="cursosList" style="display: none;">
             <li><a href="https://drive.google.com/file/d/1Vy7tWwoaLgZL7hj_X0zad4YO4zFcgaJG/view?usp=drive_link" target="_blank">Geomecanica</a></li>
             <li><a href="https://drive.google.com/file/d/1J6RRkR5ZcVLnLxMw57o6Lxj75vfeedUE/view?usp=drive_link" target="_blank">Termomarometria</a></li>
             <li><a href="https://drive.google.com/file/d/1zr4z3klqG-XM4TvEiwqLrLZKpuybCiRd/view?usp=drive_link" target="_blank">Autocad</a></li>
