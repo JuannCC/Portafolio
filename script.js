@@ -40,3 +40,10 @@ function scrollToTarget(targetElement) {
 
 //En este script, la función cambiarColorFondo cambia el color de fondo de la sección de papers al hacer clic en un botón. La función getRandomColor genera un color hexadecimal aleatorio.
 //Además, hay un código que agrega un efecto de desplazamiento suave a los enlaces del menú. Al hacer clic en un enlace, el documento se desplazará suavemente hasta la sección correspondiente.
+
+// Función para alternar la visibilidad de la lista de cursos
+function toggleCursos() {
+    var cursosList = document.getElementById("cursosList");
+    cursosList.style.display = (cursosList.style.display === "none") ? "block" : "none";
+}
+//Cuando haces clic en el título, se ejecuta la función toggleCursos(), que cambia la visibilidad de la lista de cursos entre "block" y "none".
