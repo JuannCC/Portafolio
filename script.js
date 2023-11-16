@@ -46,4 +46,8 @@ function toggleCursos() {
     var cursosList = document.getElementById("cursosList");
     cursosList.style.display = (cursosList.style.display === "none") ? "block" : "none";
 }
+function toggleCursos() {
+    var publicList = document.getElementById("publicList");
+    publicList.style.display = (publicList.style.display === "none") ? "block" : "none";
+}
 //Cuando haces clic en el título, se ejecuta la función toggleCursos(), que cambia la visibilidad de la lista de cursos entre "block" y "none".
