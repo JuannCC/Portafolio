@@ -31,9 +31,9 @@ h1, h2 {
 
 section {
     margin: 20px;
-    background-color: #b2b2b2;
+    background-color: rgba(178, 178, 178, 0.5);
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
     padding: 20px;
 }
 
