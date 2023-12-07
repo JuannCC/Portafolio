@@ -24,6 +24,10 @@ h1, h2 {
     color: #fff;
 }
 
+demo {
+    font-style: italic;
+}
+
 section {
     margin: 20px;
     background-color: #b2b2b2;
