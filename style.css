@@ -17,11 +17,12 @@ header {
 }
 
 h1, h2 {
-    color: #fff;
+    color: #3498db;
 }
 
 #demo {
     font-style: italic;
+    color: #555;
 }
 
 section {
@@ -43,7 +44,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: #3498db;
     transition: color 0.3s ease;
     font-size: 14px;
     font-weight: bold;
@@ -72,4 +73,3 @@ footer {
 #cursorTitle {
     cursor: pointer;
 }
-
