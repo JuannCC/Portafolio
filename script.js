@@ -42,6 +42,14 @@ function scrollToTarget(targetElement) {
 //Además, hay un código que agrega un efecto de desplazamiento suave a los enlaces del menú. Al hacer clic en un enlace, el documento se desplazará suavemente hasta la sección correspondiente.
 
 // Función para alternar la visibilidad de la lista de cursos
+function toggleSobreMi() {
+    var sobreMiList = document.getElementById("sobreMiList");
+    sobreMiList.style.display = (sobreMiList.style.display === "none") ? "block" : "none";
+}
+function toggleTrabajos() {
+    var trabajosList = document.getElementById("trabajosList");
+    trabajosList.style.display = (trabajosList.style.display === "none") ? "block" : "none";
+}
 function toggleCursos() {
     var cursosList = document.getElementById("cursosList");
     cursosList.style.display = (cursosList.style.display === "none") ? "block" : "none";
@@ -49,5 +57,9 @@ function toggleCursos() {
 function togglePublic() {
     var publicList = document.getElementById("publicList");
     publicList.style.display = (publicList.style.display === "none") ? "block" : "none";
+}
+function toggleContact() {
+    var contactList = document.getElementById("contactList");
+    contactList.style.display = (contactList.style.display === "none") ? "block" : "none";
 }
 //Cuando haces clic en el título, se ejecuta la función toggleCursos(), que cambia la visibilidad de la lista de cursos entre "block" y "none".

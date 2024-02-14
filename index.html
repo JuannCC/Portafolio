@@ -12,10 +12,33 @@
     <header>
         <h1>Juan Cruz Crotta</h1>
         <p id="demo">Ingeniero en telecomunicaciones</p>
+        <nav>
+            <ul>
+              <li ><a href="#sobremi" onclick="toggleSobreMi()">Sobre Mi</a></li>
+              <li><a href="#trabajos" onclick="toggleTrabajos()">Trabajos</a></li>
+              <li><a href="#certificados" onclick="togglePublic()">Certificados</a></li>
+              <li><a href="#desarrollos" onclick="toggleCursos()">Desarrollos</a></li>
+              <li><a href="#contacto" onclick="toggleContact()">Contacto</a></li>
+            </ul>
+          </nav>
     </header>
 
-    <section id="papers">
-        <h2 id="cursorTitle" onclick="togglePublic()">Publicaciones</h2>
+    <section id="sobremi">
+        <h2 id="cursorTitle" onclick="toggleSobreMi()">Sobre Mi</h2>
+        <ul id="sobreMiList" style="display: none;">
+            <h4>Mi nombre es Juan y soy Ingeniero en telecomunicaciones. Hace algunos años comence a programar y a desenvolverme en el ambito de la infraestrcutra</h4>
+        <!-- Contenido de la Sección 1 -->
+      </section>
+
+    <section id="trabajos">
+        <h2 id="cursorTitle" onclick="toggleTrabajos()">Trabajos</h2>
+        <ul id="trabajosList" style="display: none;">
+        <!-- Contenido de la Sección 1 -->
+      </section>
+      
+
+    <section id="certificados">
+        <h2 id="cursorTitle" onclick="togglePublic()">Certificados</h2>
         <ul id="publicList" style="display: none;">
             <h3>Certificados DevOps</h3>
             	<li><a href="https://drive.google.com/file/d/1f9vK4V7EMwgogpieXre0fzYK-XOXPDNR/view?usp=drive_link" target="_blank">2023 - A bimodal source for the generation of tonalitic to granitic magmas in a non-subduction-related magmatic belt: An example from the Sierra Chica of Córdoba, Argentina.</a></li>          
@@ -34,7 +57,7 @@
     </section>
 
     <section id="cursos">
-        <h2 id="cursorTitle" onclick="toggleCursos()">Trabajos realizados</h2>
+        <h2 id="cursorTitle" onclick="toggleCursos()">Desarrollos</h2>
 
         <ul id="cursosList" style="display: none;">
             <li><a href="https://github.com/JuannCC/Bootcamp/tree/main/HTML" target="_blank">Practicas con HTML</a></li>
@@ -48,8 +71,15 @@
         </ul>
     </section>
 
+    <section id="contacto">
+        <h2 id="cursorTitle" onclick="toggleContact()">Contacto</h2>
+        <ul id="contactList" style="display: none;">
+        <!-- Contenido de la Sección 1 -->
+      </section>
+
+
 <footer>
-    <p>Contacto: juancruzcrotta@gmail.com</p>
+    <p>juancruzcrotta@gmail.com</p>
     <!-- Otros elementos del pie de página -->
 
     <a href="https://www.linkedin.com/in/juancruzcrotta/" target="_blank" rel="noopener noreferrer">
