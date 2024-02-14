@@ -79,6 +79,7 @@ footer {
 /* Agrega estilos para el cambio de cursor */
 #cursorTitle {
     cursor: pointer;
+    color: #333;
 }
 .linkedin-button {
     background-color: #0077B5;
