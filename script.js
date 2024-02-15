@@ -46,13 +46,10 @@ function toggleSobreMi() {
     var sobreMiList = document.getElementById("sobreMiList");
     sobreMiList.style.display = (sobreMiList.style.display === "none") ? "block" : "none";
 }
-function toggleTrabajos() {
-    var trabajosList = document.getElementById("trabajosList");
-    trabajosList.style.display = (trabajosList.style.display === "none") ? "block" : "none";
-}
-function toggleCursos() {
-    var cursosList = document.getElementById("cursosList");
-    cursosList.style.display = (cursosList.style.display === "none") ? "block" : "none";
+
+function toggleDesarrollo() {
+    var desarrolloList = document.getElementById("desarrolloList");
+    desarrolloList.style.display = (desarrolloList.style.display === "none") ? "block" : "none";
 }
 function togglePublic() {
     var publicList = document.getElementById("publicList");
@@ -61,5 +58,9 @@ function togglePublic() {
 function toggleContact() {
     var contactList = document.getElementById("contactList");
     contactList.style.display = (contactList.style.display === "none") ? "block" : "none";
+}
+function toggleExperiencia() {
+    var experienciaList = document.getElementById("experienciaList");
+    experienciaList.style.display = (experienciaList.style.display === "none") ? "block" : "none";
 }
 //Cuando haces clic en el título, se ejecuta la función toggleCursos(), que cambia la visibilidad de la lista de cursos entre "block" y "none".
