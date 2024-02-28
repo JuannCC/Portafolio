@@ -40,6 +40,10 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 5);
     padding: 20px;
 }
+#contacto {
+  max-width: 300px;  /* Establece el ancho máximo de la sección */
+  margin: 30 auto;   /* Centra la sección horizontalmente */
+}
 
 ul {
     list-style-type: none;
@@ -54,7 +58,7 @@ a {
     text-decoration: none;
     color: #0009;
     transition: color 0.3s ease;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -83,7 +87,7 @@ footer {
 /* Agrega estilos para el cambio de cursor */
 #cursorTitle {
     cursor: pointer;
-    color: #333;
+    color: #fff;
 }
 .linkedin-button {
     background-color: #0077B5;
@@ -204,3 +208,25 @@ nav {
   }
   
   /*Aca termina las tarjetas*/
+
+  .bio-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #333;
+    max-width: 800px; /* Puedes ajustar este valor según sea necesario */
+    margin: auto; /* Centra el contenedor horizontalmente */
+}
+
+.bio-section img {
+    max-width: 38%; /* Ajusta el tamaño máximo de la imagen al 100% del contenedor */
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+#titulo {
+  font-family: atrament-web, sans-serif;
+  font-size: 2.5em;
+}
+#demo {
+  font-family: atrament-web, sans-serif;
+  font-size: 1.5em;
+}
