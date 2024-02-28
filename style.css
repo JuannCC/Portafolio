@@ -26,6 +26,8 @@ h1 {
 }
 h2 {
     color: #333;
+    font-style: italic;
+    font-weight: 400;
 }
 
 #demo {
@@ -225,6 +227,7 @@ nav {
 #titulo {
   font-family: atrament-web, sans-serif;
   font-size: 2.5em;
+  color: #3498db;
 }
 #demo {
   font-family: atrament-web, sans-serif;
