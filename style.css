@@ -42,7 +42,7 @@ section {
     margin: 40px;
     background-color: rgba(178, 178, 178, 0.3);
     border-radius: 50px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+    box-shadow: 0 0 1000px rgba(0, 0, 0);
     padding: 20px;
 }
 #contacto {
