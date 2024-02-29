@@ -64,3 +64,22 @@ function toggleExperiencia() {
     experienciaList.style.display = (experienciaList.style.display === "none") ? "block" : "none";
 }
 //Cuando haces clic en el título, se ejecuta la función toggleCursos(), que cambia la visibilidad de la lista de cursos entre "block" y "none".
+
+// Boton Flotante
+// Obtén el botón flotante
+const floatingBtn = document.getElementById('floating-btn');
+
+// Función para mostrar u ocultar el botón dependiendo del desplazamiento
+window.onscroll = function () {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    floatingBtn.style.display = 'block';
+  } else {
+    floatingBtn.style.display = 'none';
+  }
+};
+
+// Función para desplazarse hacia arriba al hacer clic en el botón
+function scrollToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

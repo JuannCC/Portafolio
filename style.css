@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #333;
-    color: #333;
-    background-image: url('fondo.webp');
+    color: #111;
+    background-image: url('pared.webp');
     /*border-radius: 80%; */
     /*background-size: cover;  Ajusta el tamaño de la imagen para cubrir toda la pantalla */
     background-position: center;
@@ -29,6 +29,9 @@ h2 {
     font-style: italic;
     font-weight: 400;
 }
+p {
+  color: #ecebeb;
+}
 
 #demo {
     font-style: italic;
@@ -36,15 +39,15 @@ h2 {
 }
 
 section {
-    margin: 20px;
+    margin: 40px;
     background-color: rgba(178, 178, 178, 0.3);
     border-radius: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 5);
     padding: 20px;
 }
 #contacto {
-  max-width: 300px;  /* Establece el ancho máximo de la sección */
-  margin: 30 auto;   /* Centra la sección horizontalmente */
+  max-width: 1900px;   /*Establece el ancho máximo de la sección */
+  margin: 30 auto;    /*Centra la sección horizontalmente */
 }
 
 ul {
@@ -58,7 +61,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #0009;
+    color: #c8c8c8;
     transition: color 0.3s ease;
     font-size: 18px;
     font-weight: bold;
@@ -72,7 +75,7 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 2.02em;
+    padding: 1.5em;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -233,3 +236,18 @@ nav {
   font-family: atrament-web, sans-serif;
   font-size: 1.5em;
 }
+
+/*Boton Flotante*/
+#floating-btn {
+  position: fixed;
+  top: 90px; /* Alineado a la parte superior de la pantalla */
+  right: 90px; /* Alineado a la derecha de la pantalla */
+  background-color: rgba(104, 104, 104, 0.534);
+  border: black;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
